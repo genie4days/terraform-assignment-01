@@ -1,4 +1,8 @@
 # Creating Launch Template
+variable "keyname" {
+  type = string
+}
+
 resource "aws_launch_configuration" "web" {
   name_prefix = "web"
 
