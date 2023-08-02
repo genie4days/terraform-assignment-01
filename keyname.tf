@@ -1,5 +1,5 @@
 # Defining Key Name for connection
 variable "Keyname" {
-  default     = "terraform-project" 
+  default     = "cba-keypair.pem" 
   description = "Name of AWS key pair"
 }
