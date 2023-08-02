@@ -1,5 +1,5 @@
 # Defining Key Name for connection
 variable "Keyname" {
-  default     = "/Users/macbookpro/Desktop/cba-keypair.pem" 
+  default     = "cba-keypair" 
   description = "Name of AWS key pair"
 }
